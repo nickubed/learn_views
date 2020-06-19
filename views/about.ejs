@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Nick</title>
+</head>
+<body>
+    <h1>So you wanna know more about Nick, huh?</h1>
+    <ul>
+    <% faves.forEach(fave => { %>
+        <li className="thisFave"><%= fave %></li>
+    <% }) %>
+    </ul>
+    <h4>Get in line, chump.</h4>
+</body>
+</html>
